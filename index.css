@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+p{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.buttons{
+    display: flex;
+    gap: 50px;
+}
+button{
+    font-size: 1.2rem;
+    width: 100px;
+    height: 30px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px;
+}
+.yes{
+    background-color: #90EE90;
+}
+.no{
+    background-color: 	#FF7F7F;
+}
+.yes:hover, .no:hover{
+    opacity: 75%;
+}
